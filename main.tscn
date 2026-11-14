@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cn0wk31ptc66e"]
+
+[ext_resource type="Script" uid="uid://btiekqhcnkgqi" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://dv5d3ffom300o" path="res://DungeonTiles_2 (1).png" id="2_h2yge"]
+
+[sub_resource type="TileSet" id="TileSet_6om57"]
+
+[node name="Main" type="Node" unique_id=475334853]
+script = ExtResource("1_0xm2m")
+
+[node name="ground" type="TileMapLayer" parent="." unique_id=2070494895]
+tile_set = SubResource("TileSet_6om57")
+
+[node name="walls" type="TileMapLayer" parent="." unique_id=1425317006]
+
+[node name="TileMapLayer3" type="TileMapLayer" parent="." unique_id=2137445861]
+
+[node name="DungeonTiles2(1)" type="Sprite2D" parent="." unique_id=1515239135]
+position = Vector2(539, 449.5)
+scale = Vector2(1.1145833, 0.92395824)
+texture = ExtResource("2_h2yge")
